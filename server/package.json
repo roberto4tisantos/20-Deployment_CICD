@@ -5,6 +5,7 @@
   "main": "dist/server.js",
   "type": "module",
   "scripts": {
+    "dev": "npx nodemon",    
     "build": "tsc",
     "seed": "node dist/seeds/seed.js",
     "start": "node dist/server.js",
