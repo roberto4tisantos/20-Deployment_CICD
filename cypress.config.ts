@@ -7,8 +7,8 @@ export default defineConfig({
     devServer: {
       framework: 'react',
       bundler: 'vite',
-      // viteConfig,            
-      viteConfig: customViteConfig,
+      viteConfig,            
+      // viteConfig: customViteConfig,
     },
     // specPattern: "cypress/component/**/*.cy.{js,ts,jsx,tsx}",
     specPattern: "./component/**/*.cy.{js,ts,jsx,tsx}",    
