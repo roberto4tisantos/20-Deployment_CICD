@@ -5,7 +5,7 @@ export default defineConfig({
   component: {
     port: 5173,
     devServer: {
-      framework: 'react',
+      framework: 'react', 
       bundler: 'vite',
       viteConfig,            
       // viteConfig: customViteConfig,

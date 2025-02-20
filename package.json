@@ -2,7 +2,7 @@
   "name": "coding-quiz",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
+  "scripts": { 
     "start": "cd server && npm run start",
     "start:dev": "concurrently \"npm run server:dev\" \"wait-on tcp:3001 && npm run client:dev\"",
     "server:dev": "cd server && npm run dev",
