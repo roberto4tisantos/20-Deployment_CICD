@@ -5,7 +5,7 @@
   "main": "dist/server.js",
   "type": "module",
   "scripts": {
-    "dev": "npx nodemon",    
+    "dev": "npx nodemon",
     "build": "tsc",
     "seed": "node dist/seeds/seed.js",
     "start": "node dist/server.js",
@@ -26,6 +26,6 @@
     "msw": "^2.3.1",
     "nodemon": "^3.1.0",
     "typescript": "^5.4.5",
-    "vitest": "^2.0.1"
+    "vitest": "^0.0.28"
   }
 }
