@@ -2,7 +2,7 @@
   "name": "coding-quiz",
   "version": "1.0.0",
   "description": "",
-  "scripts": { 
+  "scripts": {
     "start": "cd server && npm run start",
     "start:dev": "concurrently \"npm run server:dev\" \"wait-on tcp:3001 && npm run client:dev\"",
     "server:dev": "cd server && npm run dev",
@@ -25,7 +25,8 @@
     "cypress": "^13.17.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "vite": "^5.4.14"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
